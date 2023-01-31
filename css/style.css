@@ -1,0 +1,50 @@
+.fondo1{
+    background-color:#445868 ;
+}
+img{
+    width: 140px;
+}
+.texto-responsivo{
+    font-size:12px;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    
+}
+
+
+
+@media (min-width: 550px) {
+    .texto-responsivo{
+        font-size:14px;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        
+    }
+    img{
+        width: 250px;
+    }
+    
+  }
+  @media (min-width: 992px) {
+    .texto-responsivo{
+        font-size:16px;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+    img{
+        width: 300px;
+    }
+    #presentacion{
+        flex-direction: column;
+    }
+  }
+  @media (min-width: 1300px) {
+    .texto-responsivo{
+        font-size:18px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #cuerpojs{
+        max-width: 1000px;
+    }
+  }
